@@ -107,7 +107,7 @@ const Sidebar = ({
                         className={`p-2.5 pl-4 rounded-r-xl text-xs font-bold uppercase cursor-pointer ${
                           currentView === sub.id
                             ? "text-[#fdb913] bg-[#ffffff0d]"
-                            : "text-black hover:text-white hover:bg-[#ffffff1a]"
+                            : "text-black hover:text-[#fdb913] hover:bg-[#ffffff1a]"
                         }`}
                       >
                         <div className="flex items-center gap-2">
@@ -131,7 +131,7 @@ const Sidebar = ({
                                 className={`p-2 pl-4 text-[10px] font-bold uppercase cursor-pointer ${
                                   currentView === nested.id
                                     ? "text-[#fdb913]"
-                                    : "text-black hover:text-white"
+                                    : "text-black hover:text-[#fdb913]"
                                 }`}
                               >
                                 {nested.label}

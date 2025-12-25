@@ -167,7 +167,7 @@ const App = () => {
         { id: "ct-2", label: "Hợp đồng chờ duyệt" },
       ],
     },
-    {
+    { 
       id: "product",
       label: "Sản phẩm",
       icon: <Home size={20} />,
